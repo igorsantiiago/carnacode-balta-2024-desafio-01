@@ -5,30 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>IMC app</title>
+    <title>IMC - Cálculo</title>
 </head>
 
 <body>
-    <div class="container flex flex-column justify-content-center">
-        <div class="title flex justify-content-center">
-            Cálculo de IMC
+    <div class="container">
+        <div class="logo-background">
+            <div class="logo">
+
+            </div>
         </div>
 
-        <div class="form-group flex flex-column">
-            <div class="flex flex-column">
-                <input class="input-text" type="text" placeholder="Altura" />
-                <input class="input-text" type="text" placeholder="Peso" />
-                <input class="input-text" type="text" placeholder="Sexo" />
+        <div class="form">
+            <h2>Cálculo de IMC</h2>
 
-                <div class="flex flex-row checkbox">
-                    <input class="checkbox-age" id="checkbox-age" type="checkbox" />
-                    <label class="" for="checkbox-age">Eu tenho 65 anos ou mais</label>
-                </div>
+            <input class="form-input" type="text" placeholder="Altura">
+            <input class="form-input" type="text" placeholder="Peso">
+            <input class="form-input" type="text" placeholder="Sexo">
+            <input class="form-input" type="password" placeholder="Confirme sua senha">
+
+            <div class="checkbox">
+                <input class="checkbox-style" id="checkbox-age" type="checkbox">
+                <label for="checkbox-age">Eu tenho 65 anos ou mais</label>
             </div>
 
-            <button class="btn btn-primary">Calcular meu IMC</button>
-            <button class="btn">Entenda o cálculo</button>
+            <div class="btn-group">
+                <button class="btn btn-primary">Calcular meu IMC</button>
+                <button class="btn">Entenda o cálculo</button>
+            </div>
         </div>
 </body>
 
