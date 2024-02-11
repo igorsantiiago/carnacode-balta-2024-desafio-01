@@ -1,0 +1,52 @@
+.title {
+    align-items: center;
+    width: 343px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.input-text {
+    background-color: #F6F6F6;
+    border: 1px solid #BDBDBD;
+    width: 343px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.input-text::placeholder {
+    color: #BDBDBD;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.checkbox {
+    margin: 25px 0px;
+    align-items: center;
+}
+
+.checkbox-age {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn {
+    width: 343px;
+    height: 51px;
+    margin-bottom: 10px;
+    border: 4px solid #45FEFE;
+    background-color: #FFF;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #45FEFE;
+}
